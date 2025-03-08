@@ -1,0 +1,182 @@
+:root {
+    --primary: #2b2d42;
+    --secondary: #8d99ae;
+    --third: #edf2f4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: var(--primary);
+    color: var(--third);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px 0 0 10px;
+}
+
+header span {
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+nav {
+    margin: 1rem auto;
+}
+
+#menu {
+    font-size: 32px;
+    border: 0;
+    color: var(--third);
+    background: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--primary);
+}
+
+.navigation a {
+    width: 200px;
+    display: none;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+    color: var(--third);
+    transition: .5s;
+}
+
+.navigation a:hover {
+    background-color: black;
+}
+
+.open {
+    padding: 0;
+}
+
+.open a {
+    display: block;
+}
+
+main {
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+section h2 {
+    border-radius: 6px 6px 0 0;
+    background-color: var(--primary);
+    color: var(--third);
+    padding: 20px;
+    text-align: center;
+}
+
+section ul {
+    padding: 0;
+    padding-left: 20px;
+    list-style-position: inside;
+}
+
+section li {
+    margin: 20px;
+}
+
+section picture {
+    display: block;
+    margin: 1rem;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+    margin: 10px;
+}
+
+picture img {
+    width: 100%;
+    height: auto;
+}
+
+.choice_btn {
+    border: none;
+    background-color: black;
+    color: var(--third);
+    padding: 5px 20px;
+    border-radius: 5px;
+    width: 150px;
+    margin: 10px;
+}
+
+#courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.btn {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    font-weight: 700;
+}
+
+.completed {
+    background-color: var(--secondary);
+    color: black;
+}
+
+.incomplete {
+    background-color: var(--third);
+    color: var(--primary);
+}
+
+footer {
+    background-color: var(--primary);
+    color: var(--third);
+    padding: 1rem;
+    text-align: center;
+}
+
+.highlight {
+    color: yellow;
+}
