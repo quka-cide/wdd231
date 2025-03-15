@@ -1,0 +1,74 @@
+{
+    "companies": [
+      {
+        "name": "Tech Innovations LLC",
+        "address": "123 Main St, Vinnytsya, Ukraine",
+        "phone": "+380 432 123 456",
+        "website": "https://techinnovations.com",
+        "image": "https://tech-innovations.io/wp-content/uploads/2022/11/Techinnovations-Logo-Color.png",
+        "membership_level": 3,
+        "industry": "Technology",
+        "description": "Leading provider of software solutions and IT consulting."
+      },
+      {
+        "name": "Green Fields Agriculture",
+        "address": "456 Farm Rd, Vinnytsya, Ukraine",
+        "phone": "+380 432 654 321",
+        "website": "https://greenfields.com",
+        "image": "https://images.unsplash.com/photo-1571341514065-b710ff6c07d4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z3JlZW4lMjBmaWVsZHxlbnwwfHwwfHx8MA%3D%3D",
+        "membership_level": 2,
+        "industry": "Agriculture",
+        "description": "Organic farming and sustainable agriculture solutions."
+      },
+      {
+        "name": "Vinnytsya Builders Co.",
+        "address": "789 Construction Ave, Vinnytsya, Ukraine",
+        "phone": "+380 432 987 654",
+        "website": "https://vinnytsyabuilders.com",
+        "image": "https://thearchitectsdiary.com/wp-content/uploads/2020/12/Best-Builder-.jpg",
+        "membership_level": 1,
+        "industry": "Construction",
+        "description": "Residential and commercial construction services."
+      },
+      {
+        "name": "Sunrise Logistics",
+        "address": "321 Transport Blvd, Vinnytsya, Ukraine",
+        "phone": "+380 432 111 222",
+        "website": "https://sunriselogistics.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_3lA97z2_DvYp_PKQJoBNrfEUODvwOxcolQ&s",
+        "membership_level": 3,
+        "industry": "Logistics & Transportation",
+        "description": "Efficient and reliable supply chain solutions."
+      },
+      {
+        "name": "EcoEnergy Solutions",
+        "address": "159 Solar St, Vinnytsya, Ukraine",
+        "phone": "+380 432 333 444",
+        "website": "https://ecoenergy.com",
+        "image": "https://ecocoach.com/fileadmin/user_upload/00_Hauptbilder/logo_ecoenergy-systems-AG.jpg",
+        "membership_level": 2,
+        "industry": "Renewable Energy",
+        "description": "Sustainable energy solutions for businesses and homes."
+      },
+      {
+        "name": "Healthy Life Pharmacy",
+        "address": "753 Wellness Rd, Vinnytsya, Ukraine",
+        "phone": "+380 432 555 666",
+        "website": "https://healthylifepharmacy.com",
+        "image": "https://thumbs.dreamstime.com/b/healthy-living-apple-illustration-20665282.jpg",
+        "membership_level": 1,
+        "industry": "Healthcare & Pharmaceuticals",
+        "description": "Providing quality healthcare products and medications."
+      },
+      {
+        "name": "Vinnytsya Tourism Hub",
+        "address": "852 Travel Lane, Vinnytsya, Ukraine",
+        "phone": "+380 432 777 888",
+        "website": "https://vinnytsyatourism.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJeixRMSq_gFkVV28H7ZXzipaObRoFskeXEA&s",
+        "membership_level": 3,
+        "industry": "Tourism & Hospitality",
+        "description": "Promoting tourism and cultural experiences in Vinnytsya."
+      }
+    ]
+}
