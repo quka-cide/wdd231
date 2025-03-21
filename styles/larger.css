@@ -62,9 +62,8 @@
         justify-content: center;
         gap: 10px;
     }
-
+    
     .btn {
-
-        width: 30%; /* Two buttons per row */
+        width: 30%;
     }
 }
