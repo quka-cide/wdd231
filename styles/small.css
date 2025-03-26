@@ -69,11 +69,12 @@ nav {
     text-decoration: none;
     padding: 1rem;
     color: var(--third);
-    transition: .5s;
+    transition: font-size .5s ease-in-out;
 }
 
 .navigation a:hover {
     background-color: black;
+    font-size: 24px;
 }
 
 .open {
@@ -179,4 +180,28 @@ footer {
 
 .highlight {
     color: yellow;
+}
+
+dialog {
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 6px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 3rem #777;
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    align-self: center;
+}
+
+::backdrop {
+    background-color: rgb(0 0 0 / 0.5);
+}
+
+dialog button {
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    padding: 10px 20px;
+    border: 1ppx solid rgb(0 0 0 / 0.1);
 }

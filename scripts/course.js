@@ -94,6 +94,9 @@ function renderCourses(filter = "All") {
         button.textContent = `${course.subject} ${course.number}`;
         button.classList.add("btn", course.completed ? "completed" : "incomplete");
         coursesSection.appendChild(button);
+        coursesSection.addEventListener("click", () => {
+            displayCourseDetails(course);
+        });
     });
 
     const total_credits = filteredCourses.reduce((sum, course) => sum + course.credits, 0)
@@ -105,3 +108,23 @@ const cseBtn = document.getElementById("cse").addEventListener("click", () => re
 const wddBtn = document.getElementById("wdd").addEventListener("click", () => renderCourses("WDD"));
 
 document.addEventListener("DOMContentLoaded", renderCourses("All"));
+
+function displayCourseDetails(course) {
+    let courseDetails = document.querySelector("#course_details");
+    courseDetails.innerHTML = "";
+    courseDetails.innerHTML = `
+    <button id="close_modal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+    `;
+    courseDetails.showModal();
+
+    close_modal.addEventListener("click", () => {
+        courseDetails.close();
+    });
+}
+
