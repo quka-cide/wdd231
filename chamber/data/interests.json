@@ -1,0 +1,52 @@
+{
+    "interests": [
+        {
+            "name": "Roshen Fountain",
+            "address": "Southern Bug River, Vinnytsia, Ukraine",
+            "description": "One of the largest floating fountains in Europe, offering spectacular light and music shows.",
+            "image": "./images/fontan_roshen.webp"
+        },
+        {
+            "name": "Vinnytsia Water Tower",
+            "address": "Kozitsky Street, Vinnytsia, Ukraine",
+            "description": "A historical landmark built in 1912, now serving as a War Memorial Museum.",
+            "image": "./images/Water_tower.webp"
+        },
+        {
+            "name": "Gorky Park",
+            "address": "Pirogov Street, Vinnytsia, Ukraine",
+            "description": "A beautiful green space in the heart of the city, perfect for relaxation and outdoor activities.",
+            "image": "./images/gorky_park.webp"
+        },
+        {
+            "name": "Museum of Retro Cars",
+            "address": "Khmelnytske Highway, Vinnytsia, Ukraine",
+            "description": "An exhibition of vintage automobiles showcasing the evolution of the automotive industry.",
+            "image": "./images/retro_museum.webp"
+        },
+        {
+            "name": "Vinnytsia Regional Museum",
+            "address": "Soborna Street 19, Vinnytsia, Ukraine",
+            "description": "A museum offering insights into the history and culture of Vinnytsia and its surroundings.",
+            "image": "./images/regional_museum.webp"
+        },
+        {
+            "name": "Pirogov’s Estate Museum",
+            "address": "Pirogova Street, Vinnytsia, Ukraine",
+            "description": "A museum dedicated to the life and work of renowned surgeon Mykola Pirogov.",
+            "image": "./images/pirogov_museum.webp"
+        },
+        {
+            "name": "Holy Transfiguration Cathedral",
+            "address": "Soborna Street, Vinnytsia, Ukraine",
+            "description": "An iconic Orthodox cathedral with a rich historical and architectural heritage.",
+            "image": "./images/holy_cathedral.webp"
+        },
+        {
+            "name": "SkyPark Vinnytsia",
+            "address": "MegaMall, Vinnytsia, Ukraine",
+            "description": "An exciting indoor amusement park featuring trampolines, rope courses, and adventure activities for all ages.",
+            "image": "./images/skypark.webp"
+          }
+    ]
+}

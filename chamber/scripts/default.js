@@ -13,3 +13,26 @@ hamburger.addEventListener("click", function() {
     hamburger.classList.toggle("open");
     navigation.classList.toggle("open");
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const sidebar = document.getElementById('sidebar-message');
+
+    const lastVisit = localStorage.getItem('lastVisit');
+    const currentDate = Date.now();
+
+    if(!lastVisit) {
+        sidebar.textContent = "Welcome! Let us know if you have any questions.";
+    } else {
+        const lastVisitDate = parseInt(lastVisit, 10);
+        const timeDifference = currentDate - lastVisitDate;
+        const daysDifference = Math.floor(timeDifference / (1000 * 60 * 60 * 24)); // Convert ms to days
+
+        if(daysDifference < 1) {
+            sidebar.textContent = "Back so soon! Awesome!";
+        } else {
+            sidebar.textContent = `You last visited ${daysDifference} day${daysDifference > 1 ? 's' : ''} ago.`;
+        }
+    }
+
+    localStorage.setItem('lastVisit', currentDate);
+});
