@@ -30,11 +30,6 @@
     grid-area: photo;
 }
 
-#cards figure:hover {
-    transform: scale(1.2);
-    transition: .3s ease-in-out;
-}
-
 #cards p {
     margin-top: 6px;
     grid-area: description;
@@ -73,5 +68,10 @@
     #cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    #cards figure:hover {
+        transform: scale(1.2);
+        transition: .3s ease-in-out;
     }
 }
