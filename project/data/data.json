@@ -1,0 +1,109 @@
+{
+    "quizData": [
+      {
+        "question": "What is the main character’s name in Quake 4?",
+        "options": ["Matthew Kane", "John Carmack", "Doomguy", "Strogg Commander"],
+        "answer": "Matthew Kane",
+        "category": "Characters",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which weapon is best for long-range precision shots?",
+        "options": ["Rocket Launcher", "Railgun", "Shotgun", "Nailgun"],
+        "answer": "Railgun",
+        "category": "Weapons",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "What is the alien race you fight in Quake 4?",
+        "options": ["Covenant", "Strogg", "Combine", "Zerg"],
+        "answer": "Strogg",
+        "category": "Enemies",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What is the main objective in Quake 4?",
+        "options": ["Survive waves of enemies", "Defeat the Strogg", "Explore new worlds", "Find the hidden artifact"],
+        "answer": "Defeat the Strogg",
+        "category": "Game Mechanics",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What engine does Quake 4 use?",
+        "options": ["Unreal Engine 3", "ID Tech 4", "CryEngine", "Unity"],
+        "answer": "ID Tech 4",
+        "category": "Development",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "What year was Quake 4 released?",
+        "options": ["2005", "2006", "2004", "2007"],
+        "answer": "2005",
+        "category": "History",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Who developed Quake 4?",
+        "options": ["ID Software", "Valve", "Epic Games", "Bungie"],
+        "answer": "ID Software",
+        "category": "Development",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Quake game introduced the Strogg?",
+        "options": ["Quake", "Quake 2", "Quake 3", "Quake 4"],
+        "answer": "Quake 2",
+        "category": "Game History",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What is the name of the planet where Quake 4 takes place?",
+        "options": ["Earth", "Mars", "Strogon", "The Moon"],
+        "answer": "Strogon",
+        "category": "Game World",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What type of game is Quake 4?",
+        "options": ["First-person shooter", "Real-time strategy", "Role-playing", "Action-adventure"],
+        "answer": "First-person shooter",
+        "category": "Game Type",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "Which Quake 4 weapon is known for rapid fire?",
+        "options": ["Machine Gun", "Nailgun", "Plasma Gun", "Rocket Launcher"],
+        "answer": "Nailgun",
+        "category": "Weapons",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "Which company published Quake 4?",
+        "options": ["ID Software", "Activision", "Bungie", "Valve"],
+        "answer": "Activision",
+        "category": "Development",
+        "difficulty": "Easy"
+      },
+      {
+        "question": "What kind of multiplayer mode does Quake 4 feature?",
+        "options": ["Deathmatch", "Capture the Flag", "Team Deathmatch", "All of the above"],
+        "answer": "All of the above",
+        "category": "Multiplayer",
+        "difficulty": "Medium"
+      },
+      {
+        "question": "What feature is Quake 4 known for?",
+        "options": ["Co-op gameplay", "Advanced AI", "Great graphics", "Storyline"],
+        "answer": "Advanced AI",
+        "category": "Game Features",
+        "difficulty": "Hard"
+      },
+      {
+        "question": "What does Quake 4's story follow?",
+        "options": ["The invasion of Earth", "The fight for survival", "The journey of a single soldier", "The Strogg war"],
+        "answer": "The Strogg war",
+        "category": "Story",
+        "difficulty": "Medium"
+      }
+    ]
+  }

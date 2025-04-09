@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 231 | Final project Quiz oage">
+    <meta name="author" content="Vitalina Syzova">
+    <meta property="og:title" content="Quake4 About Quiz">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./image/quake4logo.webp">
+    <meta property="og:url" content="https://quka-cide.github.io/wdd231/project/quiz.html">
+    <title>Quake4 About Quiz</title>
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
+    <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <header>
+        <h1>Quake 4 About</h1>
+        <button id="menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="guide.html">Guide</a></li>
+                <li class="active"><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Quake 4 Trivia Quiz</h1>
+        <p>Answer the following questions to test your knowledge of Quake 4!</p>
+
+        <dialog id="startModal">
+            <form id="startForm" method="dialog">
+              <h2>Enter Your Name</h2>
+              <label for="username">Name:</label>
+              <input type="text" id="username" name="username" required>
+              <div class="modal-actions">
+                <button type="submit">Start</button>
+                <button type="button" id="close-modal-btn">Cancel</button>
+              </div>
+            </form>
+          </dialog>
+          <button id="open-modal-btn" data-dialog="startModal">Start Quiz</button>
+          
+        <div id="quiz-container"></div>
+        <button id="submit-btn">Submit Quiz</button>
+        <p id="result"></p>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Vitalina Syzova | Ukraine</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="./scripts/index.js"></script>
+    <script  src="./scripts/quiz.js" type="module"></script>
+</body>
+</html>

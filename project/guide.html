@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 231 | Final project Guide page">
+    <meta name="author" content="Vitalina Syzova">
+    <meta property="og:title" content="Quake4 About Guide">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./image/quake4logo.webp">
+    <meta property="og:url" content="https://quka-cide.github.io/wdd231/project/guide.html">
+    <title>Quake4 About Guide</title>
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
+    <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <header>
+        <h1>Quake 4 About</h1>
+        <button id="menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li class="active" ><a href="guide.html">Guide</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Weapons Guide</h2>
+    <div class="table-container">
+        <table>
+            <tr>
+                <th>Weapon</th>
+                <th>Description</th>
+                <th>Best Used For</th>
+            </tr>
+            <tr>
+                <td>Blaster</td>
+                <td>Default energy weapon with unlimited ammo</td>
+                <td>Emergency backup</td>
+            </tr>
+            <tr>
+                <td>Machine Gun</td>
+                <td>Rapid-fire weapon with moderate damage</td>
+                <td>Mid-range fights</td>
+            </tr>
+            <tr>
+                <td>Hyperblaster</td>
+                <td>Fast-firing energy gun</td>
+                <td>Clearing enemies in corridors</td>
+            </tr>
+            <tr>
+                <td>Railgun</td>
+                <td>High-damage, long-range precision weapon</td>
+                <td>Sniping enemies</td>
+            </tr>
+        </table>
+    </div>
+    <h2>Enemy Types & Weaknesses</h2>
+    <div class="table-container">
+        <table>
+            <tr>
+                <th>Enemy</th>
+                <th>Weakness</th>
+            </tr>
+            <tr>
+                <td>Strogg Grunt</td>
+                <td>Machine Gun or Hyperblaster</td>
+            </tr>
+            <tr>
+                <td>Gladiator</td>
+                <td>Railgun (Headshots)</td>
+            </tr>
+            <tr>
+                <td>Tank</td>
+                <td>Rocket Launcher / Plasma Gun</td>
+            </tr>
+            <tr>
+                <td>Gun Drone</td>
+                <td>Shotgun at close range</td>
+            </tr>
+        </table>
+    </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Vitalina Syzova | Ukraine</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>

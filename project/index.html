@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 231 | Final project Home page">
+    <meta name="author" content="Vitalina Syzova">
+    <meta property="og:title" content="Quake4 About">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./image/quake4logo.webp">
+    <meta property="og:url" content="https://quka-cide.github.io/wdd231/project/index.html">
+    <title>Quake4 About</title>
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
+    <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <header>
+        <h1>Quake 4 About</h1>
+        <button id="menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="guide.html">Guide</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome to Quake 4 Fan Hub</h2>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jHkjMqZJGuU?si=z0nY_CAEqLxWj4Zl" loading="lazy" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h3>Introduction</h3>
+            <p>Quake 4 is a fast-paced first-person shooter that continues the legendary Quake series. Originally released in 2005, the game follows the story of Matthew Kane, a marine fighting against the alien Strogg. This website is dedicated to helping players understand the game, improve their skills, and test their knowledge with an interactive quiz.</p>
+        <h3> Key Features of Quake 4:</h3>
+        <ul>
+            <li>Intense single-player campaign</li>
+            <li>Multiplayer battles with classic Quake-style action</li>
+            <li>A variety of weapons, including the iconic Railgun</li>
+        </ul>
+        <h3>Game Overview</h3>
+        <ul>
+            <li><span class="label">Release Date:</span> October 18, 2005</li>
+            <li><span class="label">Developer:</span> Raven Software, id Software</li>
+            <li><span class="label">Platforms:</span> PC, Xbox 360</li>
+            <li></li>
+        </ul>
+        <div class="cards">
+            <div class="card">
+                <img src="./images/quake4logo.webp" alt="quake 4 logo">
+                <h3>Looking for tips and strategies?</h3>
+                <p>Head over to our <a href="guide.html">Guide Page</a> for in-depth gameplay advice!</p>
+            </div>
+            <div class="card">
+                <img src="./images/quake4logo.webp" alt="quake 4 logo">
+                <h3>Think you know Quake 4 well?</h3>
+                <p>Try our <a href="quiz.html">Quiz Page</a> and test your knowledge!</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Vitalina Syzova | Ukraine</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
